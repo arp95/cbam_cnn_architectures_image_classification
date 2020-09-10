@@ -1,4 +1,4 @@
-# CNN Architectures with Convolutional Block Attention Module(CBAM)
+# Spatial and Channel Attention in CNN Architectures for Image Classification task
 
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)](LICENSE.md)
 ---
@@ -13,10 +13,10 @@ In this project, different CNN Architectures like AlexNet, VGG-16, VGG-19, Incep
 
 
 ### Data
-The data for the task of Dog-Cat image classification can be downloaded from: https://drive.google.com/drive/folders/1EdVqRCT1NSYT6Ge-SvAIu7R5i9Og2tiO?usp=sharing. The dataset has been divided into three sets: Training data, Validation data and Testing data. The analysis of different CNN architectures for Dog-Cat image classification was done on comparing the Training Accuracy and Validation Accuracy values.
+The data for the task of Dog-Cat image classification can be downloaded from: https://drive.google.com/drive/folders/1EdVqRCT1NSYT6Ge-SvAIu7R5i9Og2tiO?usp=sharing. The dataset has been divided into three sets: Training data, Validation data and Testing data. The analysis of different CNN architectures(with CBAM module and without) for Dog-Cat image classification was done on comparing the Training Accuracy and Validation Accuracy values.
 
 
-
+### Results
 
 
 ### Software Required
