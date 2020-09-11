@@ -21,17 +21,27 @@ The results after using different CNN architectures are given below:
 
 1. <b>VGG-16(without CBAM, pre-trained on ImageNet dataset)</b><br>
 
-Training Accuracy = 99.27% and Validation Accuracy = 96.73% (e = 50, lr = 0.005, m = 0.9, bs = 32, wd = 0.001)<br>
+Training Accuracy = 99.27% and Validation Accuracy = 96.73% (e = 50, lr = 0.005, m = 0.9, bs = 32, wd = 0.001)<br><br>
 
 
 2. <b>VGG-19(without CBAM, pre-trained on ImageNet dataset)</b><br>
 
-Training Accuracy = 99.13% and Validation Accuracy = 97.25% (e = 50, lr = 0.005, m = 0.9, bs = 32, wd = 5e-4)<br>
+Training Accuracy = 99.13% and Validation Accuracy = 97.25% (e = 50, lr = 0.005, m = 0.9, bs = 32, wd = 5e-4)<br><br>
 
 
 3. <b>ResNet-50(without CBAM, pre-trained on ImageNet dataset)</b><br>
 
-Training Accuracy = 99.43% and Validation Accuracy = 98.43% (e = 40, lr = 0.005, m = 0.9, bs = 32, wd = 5e-4)<br>
+Training Accuracy = 99.43% and Validation Accuracy = 98.43% (e = 50, lr = 0.005, m = 0.9, bs = 32, wd = 5e-4)<br><br>
+
+
+4. <b>VGG-16(with CBAM, pre-trained on ImageNet dataset)</b><br>
+
+Training Accuracy = 99.66% and Validation Accuracy = 98.21% (e = 30, lr = 1e-3, m = 0.9, bs = 32, wd = 5e-4)<br><br>
+
+
+5. <b>VGG-19(with CBAM, pre-trained on ImageNet dataset)</b><br>
+
+Training Accuracy = 99.66% and Validation Accuracy = 98.95% (e = 30, lr = 1e-3, m = 0.9, bs = 32, wd = 0.001)<br><br>
 
 
 ### Software Required
